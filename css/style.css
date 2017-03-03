@@ -410,7 +410,7 @@ template {
 }
 .block {
   background-color: #191A19;
-  background-image: url(../../img/birthday.jpg);
+  background-image: url(../img/birthday.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -425,23 +425,23 @@ template {
       justify-content: space-around;
 }
 .block__wedding {
-  background-image: url(../../img/wedding.jpg);
+  background-image: url(../img/wedding.jpg);
   background-size: auto 100%;
 }
 .block__together {
-  background-image: url(../../img/together.jpg);
+  background-image: url(../img/together.jpg);
 }
 .block__pregnant {
-  background-image: url(../../img/pregnant.jpg);
+  background-image: url(../img/pregnant.jpg);
 }
 .block__birth {
-  background-image: url(../../img/birth.jpg);
+  background-image: url(../img/birth.jpg);
 }
 .block__child {
-  background-image: url(../../img/child.jpg);
+  background-image: url(../img/child.jpg);
 }
 .block__cat {
-  background-image: url(../../img/cat.jpg);
+  background-image: url(../img/cat.jpg);
 }
 .block h1 {
   font-size: 50px;
