@@ -1,8 +1,8 @@
 .block {
-    background-color: #3b3b3b;
+    background-color: #191A19;
     background-image: url(../../img/birthday.jpg);
     background-position: center;
-    background-size: 100% auto;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
@@ -43,22 +43,29 @@
     }
     
     i {
-        
+        margin-bottom: 20px;
+        color: white;
     }
     
     b {
-        
+        color: green;
     }
     
     p {
-        
-    }
-    
-    &__title {
-        color: blue;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 10px 20px;
         font-size: 36px;
         margin-bottom: auto;
+        border-radius: 15px;
+        text-align: center;
+        color: #003D8A;
     }
 }
 
+p.block__title {
+        background-color: transparent;
+        color: yellow;
+        font-size: 36px;
+        margin-bottom: auto;
+    }
 
