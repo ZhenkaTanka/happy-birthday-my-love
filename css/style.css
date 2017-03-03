@@ -417,6 +417,12 @@ template {
   height: 100vh;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 .block__wedding {
   background-image: url(../../img/wedding.jpg);
@@ -437,11 +443,22 @@ template {
 .block__cat {
   background-image: url(../../img/cat.jpg);
 }
+.block h1 {
+  font-size: 50px;
+  color: white;
+  margin: 0px;
+  margin-top: 50px;
+}
+.block__title {
+  color: blue;
+  font-size: 36px;
+  margin-bottom: auto;
+}
 .btn {
   background-color: #B7D4EB;
   opacity: 0.3;
-  margin-top: auto;
-  margin-left: auto;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
   margin-right: 50px;
   margin-bottom: 25px;
   padding: 10px 20px;
